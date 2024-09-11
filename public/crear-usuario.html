@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" href="CSS/styles1.css">
+</head>
+<body>
+    <h2>Crear Usuario</h2>
+    <form id="createUserForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="rol">Rol:</label>
+        <select id="rol" name="rol" required>
+            <!-- Opciones de rol se llenarán dinámicamente -->
+        </select>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+            <!-- Opciones de estado se llenarán dinámicamente -->
+        </select>
+
+        <button type="submit">Crear Usuario</button>
+        <button type="button" id="backToDashboardBtn">Regresar al Dashboard</button>
+    </form>
+
+    <script src="JS/crear.js"></script>
+</body>
+</html>

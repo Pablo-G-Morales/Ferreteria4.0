@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="CSS/styles1.css">
+</head>
+<body>
+    <h2>Gestión de Usuarios</h2>
+
+    <div>
+        <button type="button" id="logoutBtn">Cerrar Sesión</button>
+        <button type="button" id="goToDashboardBtn">Avanzar al Dashboard</button>
+        <button type="button" id="createUserBtn">Crear Nuevo Usuario</button>
+    </div>
+
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Teléfono</th>
+                <th>Correo</th>
+                <th>Username</th>
+                <th>Estado</th>
+                <th>Rol</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+            <!-- Filas de usuarios -->
+        </tbody>
+    </table>
+
+    <script src="JS/gestion.js"></script>
+</body>
+</html>

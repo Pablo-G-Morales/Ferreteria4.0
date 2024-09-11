@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins';
+    background: url('images/background.jpg') no-repeat center center fixed; /* Añade la imagen de fondo */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #2B78E4;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #2B78E4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #1f5ea8;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
